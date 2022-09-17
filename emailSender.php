@@ -1,4 +1,5 @@
 <?php 
+session_start();
 if(isset($_POST['submit'])){ 
  
 	$to = $_POST['name']; 
@@ -8,4 +9,5 @@ if(isset($_POST['submit'])){
 	mail($to,$subject,$txt,$headers); 
 } 
 
+$_SESSION['message'] = $message;
 ?> 
