@@ -348,28 +348,6 @@ h3.my-profession {
     text-align: center;
     position: relative;
 }
-/*
-.home-img::after {
-    content: '';
-    position: fixed;
-    height: 80px;
-    width: 80px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right: -10%;
-    bottom: -5px;
-}
-
-.home-img::before {
-    content: '';
-    position: absolute;
-    height: 80px;
-    width: 80px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
-    left: -5px;
-    top: -5px;
-}*/
 
 .home .home-img img {
     border-radius: 5px;
@@ -829,6 +807,6 @@ h3.my-profession {
     }
 }
 
-.Skillset .row span {
-    width: 20%;
+.skillset .row span {
+    width: 30%;
 }
